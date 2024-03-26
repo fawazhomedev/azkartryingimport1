@@ -1,0 +1,75 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "azkar",
+          "examplePhrases": [
+            "Alexa, launch my masa."
+          ],
+          "keywords": [],
+          "name": "my skill azkar al masa",
+          "description": "Sample skill using the AudioPlayer interface",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "updatesDescription": "Added support for morning Azkar recitations. Now, you can start your day with uplifting and spiritual morning supplications.\nImproved audio playback handling for smoother and more reliable performance.\nEnhanced error logging and exception handling for better troubleshooting of audio playback issues.\nUpdated help instructions to provide guidance on interacting with the morning Azkar feature.\nStreamlined session management for improved user experience and efficiency.\nVarious bug fixes and performance enhancements for a more seamless skill experience.\nExplore the new features and start your day with positivity and spiritual reflection!",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "{\"ask_dist_username\":\"\",\"ask_dist_password\":\"\",\"ask_dist_testing_instructions\":\"Sample Testing Instructions.\"}",
+      "category": "MUSIC_AND_AUDIO_ACCESSORIES",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": [
+        "US"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:661696295074:function:a5605414-11d5-4bcb-95e9-e2f0dd1bafea:Release_4"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ],
+        "locales": {},
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:661696295074:function:a5605414-11d5-4bcb-95e9-e2f0dd1bafea:Release_4"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:661696295074:function:a5605414-11d5-4bcb-95e9-e2f0dd1bafea:Release_4"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:661696295074:function:a5605414-11d5-4bcb-95e9-e2f0dd1bafea:Release_4"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": false
+    }
+  }
+}
