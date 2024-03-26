@@ -1,0 +1,58 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "PlayAudioIntent",
+          "samples": [
+            "start my audio",
+            "play my audio",
+            "start audio",
+            "play audio"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "PlayMorningAzkarIntent",
+          "samples": [
+            "play azkar al sabah",
+            "Begin morning Azkar recitation",
+            "Start morning Azkar",
+            "Play morning Azkar"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "my masa"
+    }
+  }
+}
